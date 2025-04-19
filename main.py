@@ -6,7 +6,7 @@ from PIL import Image, ImageTk
 # define a video capture object
 import numpy as np
 
-# Video shit
+# Video stuff
 vid = cv2.VideoCapture(0)
 
 
@@ -21,7 +21,7 @@ def TakeWebCamPic():
     return Image.fromarray(image_rgb, "RGB")
 
 
-# Tkinter shit
+# Tkinter stuff
 # tk = Tk()
 root = tk.Tk()
 # tk.title("Window")
